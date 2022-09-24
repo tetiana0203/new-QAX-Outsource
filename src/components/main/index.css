@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap');
+
+#hero-block{
+    height: 450px;
+    background-image: url('hero.svg'); 
+    background-size: cover; 
+	/*background-position: center center;*/
+    background-repeat: no-repeat;
+    padding-top: 336px;
+    padding-left: 80px;
+    color: #FFFFFF;
+}
+
+#hero-block h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    width: 1100px;
+    height: 265px;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 100%;
+    margin-top: 0;
+    margin-bottom: 33px;
+}
+
+#hero-block p{
+    width: 624px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+/*****************************************OUR SERVICES**********************************************/
+
+#our-services{
+    padding-right: 80px;
+    padding-left: 80px;
+    color: #120C04;
+}
+
+#our-services h2{
+    margin: 150px 0 100px 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 95px;
+}
+
+#our-services h3{
+    margin: 50px 0 50px 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+#our-services p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+}
+
+#our-services hr{
+    margin: 0;
+}
+
+#our-services-text{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+
+
+/***********************************our_services_block2******************************************/
+
+#our-services-orange{
+    display: flex;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color: #F49422;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+#our-services-orange div{
+    margin: 150px 0 150px 0;
+}
+
+#our-services-orange ul{
+    width: 380px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#our-services-orange li{
+    margin-bottom: 20px;
+}
+#our-services-orange li{
+    margin-bottom: 20px;
+}
+
+#our-services-orange p{
+    margin: 0;
+    width: 620px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+
+
+/************************************cooperation-offer**********************************************/
+
+#cooperation-offer{
+    padding: 150px 80px 70px 80px;
+    color: #120C04;
+    background: #F7F7F7;
+}
+
+#cooperation-offer h2{
+    white-space: nowrap;
+    margin: 0 0 30px 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 95px;
+}
+
+#cooperation-offer p{
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+}
+#cooperation-offer h3{
+    margin: 0;
+    width: 402px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 120%;
+    /* identical to box height, or 65px */
+
+    color: #F49422;
+}
+#cooperation-offer h5{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    color: #120C04;
+}
+#cooperation-offer li{
+    list-style-image: url("advantage-icon.svg" );
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    color: #120C04;
+}
+
+.cooperation-offer-blocks{
+    justify-content: space-between;
+    margin: 50px 0 80px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cooperation-offer-blocks div{
+    width: 730px;
+}
