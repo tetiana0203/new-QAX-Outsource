@@ -106,7 +106,7 @@ export default function Main(props) {
             </div>
             <div>
                 <div>
-                    <img src={require("./outsource.png").default} alt=""/>
+                    <img src={require("./outsource.svg").default} alt=""/>
                 </div>
                 <div>
                     <h3>
@@ -130,7 +130,7 @@ export default function Main(props) {
             <p>IT world evolves very fast, that’s why each of existing companies needs to update its product regularly to stay on wave. Winning in competition is really important, so quality of a product should be the best! And we will be glad to assist you with this. Years of experience will help us.</p>
             <p>Our purpose is to evolve with you! You have a new interesting startup, some modifications, updates or re-work, and you are not sure in your product quality - then you’ve come to the right place! Each of our clients and projects won't stay without attention and will be accurately verified.</p>
 
-            <img />
+            <img src={require("./about_us.svg").default} alt=""/>
             <div>
                 <div>Our specialists are experts with more than 5 years of experience and great practice. Each of us has been working for a long period of time in IT product and outsource companies.</div>
                 <div>We are always heads up with all new test approaches and worldwide trends in IT development, so we apply only best practices to our clients.</div>
