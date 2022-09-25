@@ -90,7 +90,43 @@ export default function Main(props) {
                     </ul>
                 </div>
             </div>
-        </div>  
+        </div> 
+        <div id="non-disclosure">
+            <div>
+                <div>
+                    <h3>
+                        Non-Disclosure
+                    </h3>
+                    <hr />
+                    <p>Confidence is one of the most important principles of our company. We can guarantee full confidence and security for any information that will be provided to us from our clients.</p>
+                </div>
+                <div>
+                    <img />
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img />
+                </div>
+                <div>
+                    <h3>
+                        Non-Disclosure
+                    </h3>
+                    <hr />
+                    <p>Confidence is one of the most important principles of our company. We can guarantee full confidence and security for any information that will be provided to us from our clients.</p>
+                </div>
+            </div>
+        </div> 
+        <div id="our-support">
+            <h2>Our Support</h2>
+            <p>Do you need help to decide which model is more convenient for you project? Please contact our managers and they will help you to find the best solution. For more convenient and based on your suggestions, all cooperation conditions can be additionally reviewed and changed, to provide maximum efficiency.</p>
+            <button>
+                Contact us
+            </button>
+        </div>
+        <div id="about-us">
+
+        </div>
     </div>
     
   );
