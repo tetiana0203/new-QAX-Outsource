@@ -106,7 +106,7 @@ export default function Main(props) {
             </div>
             <div>
                 <div>
-                    <img src={require("./outsource.svg").default} alt=""/>
+                    <img src={require("./outsource.png").default} alt=""/>
                 </div>
                 <div>
                     <h3>
