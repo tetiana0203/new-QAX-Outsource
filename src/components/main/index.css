@@ -263,3 +263,29 @@
     line-height: 150%;
     color: #FFFFFF;
 }
+
+#about_us{
+    padding: 150px 190px 150px 190px;
+}
+
+#about_us h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 95px;
+    /* identical to box height */
+
+    color: #120C04;
+}
+
+#about_us p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+    
+    color: #120C04;
+}

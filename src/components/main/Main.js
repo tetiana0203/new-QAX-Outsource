@@ -101,12 +101,12 @@ export default function Main(props) {
                     <p>Confidence is one of the most important principles of our company. We can guarantee full confidence and security for any information that will be provided to us from our clients.</p>
                 </div>
                 <div>
-                    <img src={require("./non-disc.svg").default} alt=""/>
+                    <img src={require("./non-disc.png").default} alt=""/>
                 </div>
             </div>
             <div>
                 <div>
-                    <img src={require("./outsource.svg").default} alt=""/>
+                    <img src={require("./outsource.png").default} alt=""/>
                 </div>
                 <div>
                     <h3>
@@ -125,7 +125,7 @@ export default function Main(props) {
             </button>
         </div>
         <div id="about-us">
-            <h2>Our Support</h2>
+            <h2>About Us</h2>
             <hr />
             <p>IT world evolves very fast, that’s why each of existing companies needs to update its product regularly to stay on wave. Winning in competition is really important, so quality of a product should be the best! And we will be glad to assist you with this. Years of experience will help us.</p>
             <p>Our purpose is to evolve with you! You have a new interesting startup, some modifications, updates or re-work, and you are not sure in your product quality - then you’ve come to the right place! Each of our clients and projects won't stay without attention and will be accurately verified.</p>
