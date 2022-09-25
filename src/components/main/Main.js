@@ -101,12 +101,12 @@ export default function Main(props) {
                     <p>Confidence is one of the most important principles of our company. We can guarantee full confidence and security for any information that will be provided to us from our clients.</p>
                 </div>
                 <div>
-                    <img />
+                    <img src={require("./non-disc.svg").default} alt=""/>
                 </div>
             </div>
             <div>
                 <div>
-                    <img />
+                    <img src={require("./outsource.svg").default} alt=""/>
                 </div>
                 <div>
                     <h3>
@@ -125,7 +125,57 @@ export default function Main(props) {
             </button>
         </div>
         <div id="about-us">
+            <h2>Our Support</h2>
+            <hr />
+            <p>IT world evolves very fast, that’s why each of existing companies needs to update its product regularly to stay on wave. Winning in competition is really important, so quality of a product should be the best! And we will be glad to assist you with this. Years of experience will help us.</p>
+            <p>Our purpose is to evolve with you! You have a new interesting startup, some modifications, updates or re-work, and you are not sure in your product quality - then you’ve come to the right place! Each of our clients and projects won't stay without attention and will be accurately verified.</p>
 
+            <img />
+            <div>
+                <div>Our specialists are experts with more than 5 years of experience and great practice. Each of us has been working for a long period of time in IT product and outsource companies.</div>
+                <div>We are always heads up with all new test approaches and worldwide trends in IT development, so we apply only best practices to our clients.</div>
+            </div>
+            <p>Product Quality has the highest priority for us. So we do our best to satisfy our сlients and customers! During the work we use most popular and effective test approaches and testing tools, so verification process becomes really clear and qualitative. As result we achieve required quality level in shortest terms.</p>
+            <img />
+        </div>
+        <div id="why-us">
+            <div>
+                <img />
+                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+            </div>
+            <div>
+                <img />
+                <p>Within the QA space we have many team leads and managers who have worked on a wide range of successful products. Most team members have between 3 and 12 years of experience.</p>
+            </div>
+            <div>
+                <img />
+                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+            </div>
+            <div>
+                <img />
+                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+            </div>
+            <div>
+                <img />
+                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+            </div>
+            <div>
+                <img />
+                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+            </div>
+            <div>
+                <img />
+                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+            </div>
+        </div>
+        <div id="cooperation-procedure">
+            <div>
+                <h2>Cooperation Procedure</h2>
+                <p></p>
+            </div>
+            <div>
+                <img />
+            </div>
         </div>
     </div>
     
