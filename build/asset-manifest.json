@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-QAX-Outsource/static/css/main.9520b119.css",
-    "main.js": "/new-QAX-Outsource/static/js/main.b08131f4.js",
+    "main.js": "/new-QAX-Outsource/static/js/main.9049992e.js",
     "static/js/787.117781b1.chunk.js": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js",
     "static/media/non-disc.svg": "/new-QAX-Outsource/static/media/non-disc.761576e4579c5f531af68477adee3fbe.svg",
     "static/media/outsource.svg": "/new-QAX-Outsource/static/media/outsource.cf08dbc647ddc973a53b36d9f28cd383.svg",
@@ -18,11 +18,11 @@
     "static/media/arrow.svg": "/new-QAX-Outsource/static/media/arrow.e699e97e519d33b3f955c9d647e40d1f.svg",
     "static/media/advantage-icon.svg": "/new-QAX-Outsource/static/media/advantage-icon.bdf17fed8955e84a8a05.svg",
     "main.9520b119.css.map": "/new-QAX-Outsource/static/css/main.9520b119.css.map",
-    "main.b08131f4.js.map": "/new-QAX-Outsource/static/js/main.b08131f4.js.map",
+    "main.9049992e.js.map": "/new-QAX-Outsource/static/js/main.9049992e.js.map",
     "787.117781b1.chunk.js.map": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9520b119.css",
-    "static/js/main.b08131f4.js"
+    "static/js/main.9049992e.js"
   ]
 }
