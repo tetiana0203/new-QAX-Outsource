@@ -209,10 +209,8 @@
     flex-direction: row;
 }
 
-#non-disclosure p,hr{
-    max-width: 620px;
-    width: 100%;
-}
+
+
 
 #non-disclosure img{
     max-width: 510px;
@@ -239,4 +237,29 @@
     /* or 27px */
 
     color: #120C04;
+}
+
+
+
+#our-support {
+    padding: 150px 190px 150px 190px;
+    background: #F49422;
+}
+
+#our-support h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+#our-support p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
 }
