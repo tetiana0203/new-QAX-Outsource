@@ -34,13 +34,13 @@ export default function Footer(props) {
       <div className="contacts">
         <ul>
             <li>
-                <a>
+                <a href="#our_services">
                     <img src={require("./call.svg").default} alt="" />
                     +380993890957
                 </a>
             </li>
             <li>
-                <a >
+                <a href="#our_services">
                     <img src={require("./mail2.svg").default} alt="" />
                     Info@qax-camp.com.ua
                 </a>

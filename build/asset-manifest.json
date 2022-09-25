@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f48bbbf8.css",
-    "main.js": "/static/js/main.416a4a6e.js",
-    "static/js/787.5fb580ed.chunk.js": "/static/js/787.5fb580ed.chunk.js",
-    "static/media/hero.svg": "/static/media/hero.8b9874ff2711ac5e312c.svg",
-    "static/media/call.svg": "/static/media/call.615dbbb05319fb50aae10ba12e2b6327.svg",
-    "static/media/location.svg": "/static/media/location.597343f7e335e003e7f9fe53ef686189.svg",
-    "static/media/mail2.svg": "/static/media/mail2.3ba4227a3295894c48ad26277b0c78fc.svg",
-    "static/media/logo.svg": "/static/media/logo.63f8ced816fb3053237f6a31f78b1549.svg",
-    "static/media/phone.svg": "/static/media/phone.54ae4262e92f115f61be9a63a0c228f9.svg",
-    "index.html": "/index.html",
-    "static/media/mail.svg": "/static/media/mail.7a9ae9fad6db102020ba19a8fb61af6c.svg",
-    "static/media/telegram.svg": "/static/media/telegram.3507a9f9efb9e8877bda18fc05f1672a.svg",
-    "static/media/arrow.svg": "/static/media/arrow.e699e97e519d33b3f955c9d647e40d1f.svg",
-    "static/media/advantage-icon.svg": "/static/media/advantage-icon.bdf17fed8955e84a8a05.svg",
-    "main.f48bbbf8.css.map": "/static/css/main.f48bbbf8.css.map",
-    "main.416a4a6e.js.map": "/static/js/main.416a4a6e.js.map",
-    "787.5fb580ed.chunk.js.map": "/static/js/787.5fb580ed.chunk.js.map"
+    "main.css": "/new-QAX-Outsource/static/css/main.9520b119.css",
+    "main.js": "/new-QAX-Outsource/static/js/main.e703f9b4.js",
+    "static/js/787.117781b1.chunk.js": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js",
+    "static/media/hero.svg": "/new-QAX-Outsource/static/media/hero.8b9874ff2711ac5e312c.svg",
+    "static/media/call.svg": "/new-QAX-Outsource/static/media/call.615dbbb05319fb50aae10ba12e2b6327.svg",
+    "static/media/location.svg": "/new-QAX-Outsource/static/media/location.597343f7e335e003e7f9fe53ef686189.svg",
+    "static/media/mail2.svg": "/new-QAX-Outsource/static/media/mail2.3ba4227a3295894c48ad26277b0c78fc.svg",
+    "static/media/logo.svg": "/new-QAX-Outsource/static/media/logo.63f8ced816fb3053237f6a31f78b1549.svg",
+    "static/media/phone.svg": "/new-QAX-Outsource/static/media/phone.54ae4262e92f115f61be9a63a0c228f9.svg",
+    "index.html": "/new-QAX-Outsource/index.html",
+    "static/media/mail.svg": "/new-QAX-Outsource/static/media/mail.7a9ae9fad6db102020ba19a8fb61af6c.svg",
+    "static/media/telegram.svg": "/new-QAX-Outsource/static/media/telegram.3507a9f9efb9e8877bda18fc05f1672a.svg",
+    "static/media/arrow.svg": "/new-QAX-Outsource/static/media/arrow.e699e97e519d33b3f955c9d647e40d1f.svg",
+    "static/media/advantage-icon.svg": "/new-QAX-Outsource/static/media/advantage-icon.bdf17fed8955e84a8a05.svg",
+    "main.9520b119.css.map": "/new-QAX-Outsource/static/css/main.9520b119.css.map",
+    "main.e703f9b4.js.map": "/new-QAX-Outsource/static/js/main.e703f9b4.js.map",
+    "787.117781b1.chunk.js.map": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f48bbbf8.css",
-    "static/js/main.416a4a6e.js"
+    "static/css/main.9520b119.css",
+    "static/js/main.e703f9b4.js"
   ]
 }

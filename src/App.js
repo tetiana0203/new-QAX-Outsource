@@ -7,7 +7,7 @@ import BtnScrollUp from "./components/BtnScrollUp"
 function App() {
   return (
     <div className="App">
-       <Header title="My header" subtitle="subtitle2" />
+       <Header />
        <Main />
        <Footer  />
        <BtnScrollUp />
