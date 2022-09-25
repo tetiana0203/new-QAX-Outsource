@@ -110,10 +110,10 @@ export default function Main(props) {
                 </div>
                 <div>
                     <h3>
-                        Non-Disclosure
+                        Outsource
                     </h3>
                     <hr />
-                    <p>Confidence is one of the most important principles of our company. We can guarantee full confidence and security for any information that will be provided to us from our clients.</p>
+                    <p>Our company is located in Kyiv, Ukraine. For many years we provide a lot of QA/QC services to different clients as outsource. We have impressive experience in work with countries such as Canada, USA, Great Britain, Sweden, Poland, Malta, India, and others… We can set and apply effective communication process with our client regardless of time difference.</p>
                 </div>
             </div>
         </div> 
