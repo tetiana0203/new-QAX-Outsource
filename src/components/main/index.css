@@ -200,3 +200,43 @@
 .cooperation-offer-blocks div{
     width: 730px;
 }
+
+/*********************************************Non-Disclosure*********************************************/
+
+#non-disclosure{
+    padding: 150px 80px 150px 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+#non-disclosure p,hr{
+    max-width: 620px;
+    width: 100%;
+}
+
+#non-disclosure img{
+    max-width: 510px;
+    width: 100%;
+}
+
+#non-disclosure h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    /* identical to box height, or 48px */
+
+    color: #120C04;
+}
+
+#non-disclosure p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    color: #120C04;
+}
