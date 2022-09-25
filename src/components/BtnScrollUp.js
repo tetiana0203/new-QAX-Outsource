@@ -14,7 +14,7 @@ function BtnScrollUp() {
   }
   
   return (
-    <div className={'btn-scroll-up'} onClick={handlerScrollUp}>&#9650;</div>
+    <div className={'btn-scroll-up'} onClick={handlerScrollUp}>jjjjjjjj</div>
   );
 }
 

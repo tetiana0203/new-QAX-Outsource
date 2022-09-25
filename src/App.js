@@ -9,9 +9,8 @@ function App() {
     <div className="App">
        <Header title="My header" subtitle="subtitle2" />
        <Main />
-       <BtnScrollUp />
        <Footer  />
-       
+       <BtnScrollUp />
     </div>
   );
 }
