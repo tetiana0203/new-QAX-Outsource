@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./index.scss";
 import arrow from "./arrow.svg";
 export default function Main(props) {
   return (
