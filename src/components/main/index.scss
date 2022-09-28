@@ -9,6 +9,19 @@
     line-height: 95px;
 }
 
+@mixin block-paragraphs {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.block-text{
+    @include block-paragraphs;
+}
+
 $block-paddings-desk: 150px 80px 150px 80px;
 
 
@@ -266,15 +279,15 @@ $block-paddings-desk: 150px 80px 150px 80px;
     color: #FFFFFF;
 }
 /************************************About Us********************************/
-#about_us{
+#about-us{
     padding: $block-paddings-desk;
 }
 
-#about_us .block-title{
+#about-us .block-title{
     @include block-titles;
 }
 
-#about_us p{
+#about-us p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;

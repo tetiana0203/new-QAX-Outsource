@@ -17,11 +17,11 @@ export default function Main(props) {
             <div id="our-services-text">
                 <div>
                     <h3>Full Testing Cycle</h3>
-                    <p>High quality of a product can be guaranteed only by verifying it veryaccurately. Our team can provide full range of test services. Mobile testing will beperformed on most popular iOs and Android devices (tablets and phones), and Windows mobile if needed. Desktop applications and Web services will be verified on any required OS and browser.</p>
+                    <p className="block-text">High quality of a product can be guaranteed only by verifying it veryaccurately. Our team can provide full range of test services. Mobile testing will beperformed on most popular iOs and Android devices (tablets and phones), and Windows mobile if needed. Desktop applications and Web services will be verified on any required OS and browser.</p>
                 </div>
                 <div>
                     <h3>Test Process Optimization</h3>
-                    <p>To guarantee product quality, it should be verified very clearly. But it  require a lot of time and resources, and you still getting issues from production that costs a lot to fix. We can help you to solve this problem. Our optimized approaches to testing process will allow you to increase product quality, reduce overall testing time and number of issues from production. As result you will get valuable profit and great product quality.</p>
+                    <p className="block-text">To guarantee product quality, it should be verified very clearly. But it  require a lot of time and resources, and you still getting issues from production that costs a lot to fix. We can help you to solve this problem. Our optimized approaches to testing process will allow you to increase product quality, reduce overall testing time and number of issues from production. As result you will get valuable profit and great product quality.</p>
                 </div>
             </div>
             <div>
@@ -55,7 +55,7 @@ export default function Main(props) {
             <div className="cooperation-offer-blocks">
                 <h3>Fixed Price</h3>
                 <div>
-                    <p>With this approach we define with you a project testing scope, discuss all specifications, testing environments and other details. Then we agree project verification cost and deadline. The option will be more suitable for you, if there is no big amount of objects to test at current project stage.</p>
+                    <p className="block-text">With this approach we define with you a project testing scope, discuss all specifications, testing environments and other details. Then we agree project verification cost and deadline. The option will be more suitable for you, if there is no big amount of objects to test at current project stage.</p>
                     <h5>Advantages</h5>
                     <ul>
                         <li>You can perform short-term project without involving QA for a full-work day. It will save your money</li>
@@ -67,7 +67,7 @@ export default function Main(props) {
             <div className="cooperation-offer-blocks">
                 <h3>Time & Material</h3>
                 <div>
-                    <p>"Hourly paid” model is the most suitable, when it’s hard or impossible to estimate the project testing scope and terms. Only actual QA spent time will costs with this model. Such services are paid on a monthly basis or after the work is finished in case if the cooperation terms are not more than a month, and you receive comprehensive reports on the progress, as well as statements of the time-consuming.</p>
+                    <p className="block-text">"Hourly paid” model is the most suitable, when it’s hard or impossible to estimate the project testing scope and terms. Only actual QA spent time will costs with this model. Such services are paid on a monthly basis or after the work is finished in case if the cooperation terms are not more than a month, and you receive comprehensive reports on the progress, as well as statements of the time-consuming.</p>
                     <h5>Advantages</h5>
                     <ul>
                         <li>You can minimize your product costs, by minimize QA expenses</li>
@@ -79,7 +79,7 @@ export default function Main(props) {
             <div className="cooperation-offer-blocks">
                 <h3>Outstaff </h3>
                 <div>
-                    <p>If you have few projects or / and long terms cooperation plans with our company, then we can provide you a QA team (including QA Team lead , if needed). With this model, we assign QA sources, based on your requirements. In future, you can change number of QA(s), depending of test load.</p>
+                    <p className="block-text">If you have few projects or / and long terms cooperation plans with our company, then we can provide you a QA team (including QA Team lead , if needed). With this model, we assign QA sources, based on your requirements. In future, you can change number of QA(s), depending of test load.</p>
                     <h5>Advantages</h5>
                     <ul>
                         <li>This is the easiest way to plan your budget. You just hire the number of QA you will need for your project</li>
@@ -101,12 +101,10 @@ export default function Main(props) {
                     <p>Confidence is one of the most important principles of our company. We can guarantee full confidence and security for any information that will be provided to us from our clients.</p>
                 </div>
                 <div>
-                    <img src={require("./non-disc.svg").default} alt=""/>
                 </div>
             </div>
             <div>
                 <div>
-                    <img src={require("./outsource.svg").default} alt=""/>
                 </div>
                 <div>
                     <h3>
@@ -127,15 +125,15 @@ export default function Main(props) {
         <div id="about-us">
             <h2 className="block-title">About Us</h2>
             <hr />
-            <p>IT world evolves very fast, that’s why each of existing companies needs to update its product regularly to stay on wave. Winning in competition is really important, so quality of a product should be the best! And we will be glad to assist you with this. Years of experience will help us.</p>
-            <p>Our purpose is to evolve with you! You have a new interesting startup, some modifications, updates or re-work, and you are not sure in your product quality - then you’ve come to the right place! Each of our clients and projects won't stay without attention and will be accurately verified.</p>
+            <p className="block-text">IT world evolves very fast, that’s why each of existing companies needs to update its product regularly to stay on wave. Winning in competition is really important, so quality of a product should be the best! And we will be glad to assist you with this. Years of experience will help us.</p>
+            <p className="block-text">Our purpose is to evolve with you! You have a new interesting startup, some modifications, updates or re-work, and you are not sure in your product quality - then you’ve come to the right place! Each of our clients and projects won't stay without attention and will be accurately verified.</p>
 
             <img src={require("./about_us.svg").default} alt=""/>
             <div>
-                <div>Our specialists are experts with more than 5 years of experience and great practice. Each of us has been working for a long period of time in IT product and outsource companies.</div>
-                <div>We are always heads up with all new test approaches and worldwide trends in IT development, so we apply only best practices to our clients.</div>
+                <div className="block-text">Our specialists are experts with more than 5 years of experience and great practice. Each of us has been working for a long period of time in IT product and outsource companies.</div>
+                <div className="block-text">We are always heads up with all new test approaches and worldwide trends in IT development, so we apply only best practices to our clients.</div>
             </div>
-            <p>Product Quality has the highest priority for us. So we do our best to satisfy our сlients and customers! During the work we use most popular and effective test approaches and testing tools, so verification process becomes really clear and qualitative. As result we achieve required quality level in shortest terms.</p>
+            <p className="block-text">Product Quality has the highest priority for us. So we do our best to satisfy our сlients and customers! During the work we use most popular and effective test approaches and testing tools, so verification process becomes really clear and qualitative. As result we achieve required quality level in shortest terms.</p>
             <img />
         </div>
         <div id="why-us">
