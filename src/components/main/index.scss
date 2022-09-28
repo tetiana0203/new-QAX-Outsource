@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap');
-
+$primary-color: rgb(22, 218, 77);
 #hero-block{
     height: 450px;
     background-image: url('hero.svg'); 
@@ -37,7 +37,7 @@
 #our-services{
     padding-right: 80px;
     padding-left: 80px;
-    color: #120C04;
+    color: $primary-color;
 }
 
 #our-services h2{
