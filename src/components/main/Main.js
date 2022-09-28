@@ -12,7 +12,7 @@ export default function Main(props) {
 
 
         <div id="our-services">
-            <h2>Our Services</h2>
+            <h2 className="block-title">Our Services</h2>
             <hr />
             <div id="our-services-text">
                 <div>
@@ -49,7 +49,7 @@ export default function Main(props) {
         </div>  
 
         <div id="cooperation-offer">
-            <h2>Cooperation Offer</h2>
+            <h2 className="block-title">Cooperation Offer</h2>
             <p>QAX company suggests you three main cooperation options</p>
             <hr/>
             <div className="cooperation-offer-blocks">
@@ -125,7 +125,7 @@ export default function Main(props) {
             </button>
         </div>
         <div id="about-us">
-            <h2>About Us</h2>
+            <h2 className="block-title">About Us</h2>
             <hr />
             <p>IT world evolves very fast, that’s why each of existing companies needs to update its product regularly to stay on wave. Winning in competition is really important, so quality of a product should be the best! And we will be glad to assist you with this. Years of experience will help us.</p>
             <p>Our purpose is to evolve with you! You have a new interesting startup, some modifications, updates or re-work, and you are not sure in your product quality - then you’ve come to the right place! Each of our clients and projects won't stay without attention and will be accurately verified.</p>

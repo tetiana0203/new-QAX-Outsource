@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap');
-$primary-color: rgb(22, 218, 77);
+
+@mixin block-titles {
+    white-space: nowrap;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 95px;
+}
+
 #hero-block{
     height: 450px;
     background-image: url('hero.svg'); 
@@ -37,16 +46,12 @@ $primary-color: rgb(22, 218, 77);
 #our-services{
     padding-right: 80px;
     padding-left: 80px;
-    color: $primary-color;
+    color: #120C04;
 }
 
-#our-services h2{
+.block-title{
     margin: 150px 0 100px 0;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 80px;
-    line-height: 95px;
+    @include block-titles;
 }
 
 #our-services h3{
@@ -137,15 +142,11 @@ $primary-color: rgb(22, 218, 77);
     background: #F7F7F7;
 }
 
-#cooperation-offer h2{
-    white-space: nowrap;
+#cooperation-offer .block-title{
     margin: 0 0 30px 0;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 80px;
-    line-height: 95px;
+    @include block-titles;
 }
+
 
 #cooperation-offer p{
     margin: 0;
@@ -268,15 +269,8 @@ $primary-color: rgb(22, 218, 77);
     padding: 150px 190px 150px 190px;
 }
 
-#about_us h2{
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 80px;
-    line-height: 95px;
-    /* identical to box height */
-
-    color: #120C04;
+#about_us .block-title{
+    @include block-titles;
 }
 
 #about_us p{
