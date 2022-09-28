@@ -9,6 +9,9 @@
     line-height: 95px;
 }
 
+$block-paddings-desk: 150px 80px 150px 80px;
+
+
 #hero-block{
     height: 450px;
     background-image: url('hero.svg'); 
@@ -44,13 +47,12 @@
 /*****************************************OUR SERVICES**********************************************/
 
 #our-services{
-    padding-right: 80px;
-    padding-left: 80px;
+    padding: $block-paddings-desk;
     color: #120C04;
 }
 
 .block-title{
-    margin: 150px 0 100px 0;
+    margin: 0 0 100px 0;
     @include block-titles;
 }
 
@@ -89,8 +91,7 @@
 
 #our-services-orange{
     display: flex;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding: $block-paddings-desk;
     background-color: #F49422;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -137,7 +138,7 @@
 /************************************cooperation-offer**********************************************/
 
 #cooperation-offer{
-    padding: 150px 80px 70px 80px;
+    padding: $block-paddings-desk;
     color: #120C04;
     background: #F7F7F7;
 }
@@ -205,7 +206,7 @@
 /*********************************************Non-Disclosure*********************************************/
 
 #non-disclosure{
-    padding: 150px 80px 150px 80px;
+    padding: $block-paddings-desk;
     display: flex;
     flex-direction: row;
 }
@@ -264,9 +265,9 @@
     line-height: 150%;
     color: #FFFFFF;
 }
-
+/************************************About Us********************************/
 #about_us{
-    padding: 150px 190px 150px 190px;
+    padding: $block-paddings-desk;
 }
 
 #about_us .block-title{
