@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/new-QAX-Outsource/static/css/main.e1bc3c08.css",
-    "main.js": "/new-QAX-Outsource/static/js/main.cefdfc78.js",
+    "main.css": "/new-QAX-Outsource/static/css/main.cea06e01.css",
+    "main.js": "/new-QAX-Outsource/static/js/main.045155e6.js",
     "static/js/787.117781b1.chunk.js": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js",
+    "static/media/cooperation-procedure.svg": "/new-QAX-Outsource/static/media/cooperation-procedure.36060975ef93353381c66947b5726fe6.svg",
     "static/media/hero.svg": "/new-QAX-Outsource/static/media/hero.8b9874ff2711ac5e312c.svg",
     "static/media/about_us.svg": "/new-QAX-Outsource/static/media/about_us.92b846422916c038977b16ad7660ec36.svg",
+    "static/media/devices.svg": "/new-QAX-Outsource/static/media/devices.67530c75f8d0be5e056fbc5290e13905.svg",
     "static/media/call.svg": "/new-QAX-Outsource/static/media/call.615dbbb05319fb50aae10ba12e2b6327.svg",
     "static/media/location.svg": "/new-QAX-Outsource/static/media/location.597343f7e335e003e7f9fe53ef686189.svg",
+    "static/media/people.svg": "/new-QAX-Outsource/static/media/people.6f7886bd6318e3c5159008b8e5a53b01.svg",
     "static/media/mail2.svg": "/new-QAX-Outsource/static/media/mail2.3ba4227a3295894c48ad26277b0c78fc.svg",
+    "static/media/lamp.svg": "/new-QAX-Outsource/static/media/lamp.f4f9098dc04e322696c3558fa67376b0.svg",
+    "static/media/monitor.svg": "/new-QAX-Outsource/static/media/monitor.46a3346128711db5268b806daf99eca6.svg",
+    "static/media/note.svg": "/new-QAX-Outsource/static/media/note.b5ddaeeb65f5fce1ddc1f66d3d934171.svg",
     "static/media/logo.svg": "/new-QAX-Outsource/static/media/logo.63f8ced816fb3053237f6a31f78b1549.svg",
     "static/media/phone.svg": "/new-QAX-Outsource/static/media/phone.54ae4262e92f115f61be9a63a0c228f9.svg",
     "index.html": "/new-QAX-Outsource/index.html",
@@ -15,12 +21,13 @@
     "static/media/telegram.svg": "/new-QAX-Outsource/static/media/telegram.3507a9f9efb9e8877bda18fc05f1672a.svg",
     "static/media/arrow.svg": "/new-QAX-Outsource/static/media/arrow.e699e97e519d33b3f955c9d647e40d1f.svg",
     "static/media/advantage-icon.svg": "/new-QAX-Outsource/static/media/advantage-icon.bdf17fed8955e84a8a05.svg",
-    "main.e1bc3c08.css.map": "/new-QAX-Outsource/static/css/main.e1bc3c08.css.map",
-    "main.cefdfc78.js.map": "/new-QAX-Outsource/static/js/main.cefdfc78.js.map",
+    "static/media/chevron.svg": "/new-QAX-Outsource/static/media/chevron.6cc8950346e4f4cf6e40.svg",
+    "main.cea06e01.css.map": "/new-QAX-Outsource/static/css/main.cea06e01.css.map",
+    "main.045155e6.js.map": "/new-QAX-Outsource/static/js/main.045155e6.js.map",
     "787.117781b1.chunk.js.map": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1bc3c08.css",
-    "static/js/main.cefdfc78.js"
+    "static/css/main.cea06e01.css",
+    "static/js/main.045155e6.js"
   ]
 }

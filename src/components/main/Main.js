@@ -18,22 +18,20 @@ export default function Main(props) {
                 <div>
                     <h3>Full Testing Cycle</h3>
                     <p className="block-text">High quality of a product can be guaranteed only by verifying it veryaccurately. Our team can provide full range of test services. Mobile testing will beperformed on most popular iOs and Android devices (tablets and phones), and Windows mobile if needed. Desktop applications and Web services will be verified on any required OS and browser.</p>
+                    <img src={arrow} alt=""/>
                 </div>
                 <div>
                     <h3>Test Process Optimization</h3>
                     <p className="block-text">To guarantee product quality, it should be verified very clearly. But it  require a lot of time and resources, and you still getting issues from production that costs a lot to fix. We can help you to solve this problem. Our optimized approaches to testing process will allow you to increase product quality, reduce overall testing time and number of issues from production. As result you will get valuable profit and great product quality.</p>
+                    <img src={arrow} alt=""/>
                 </div>
-            </div>
-            <div>
-                <img src={arrow} alt=""/>
-                <img src={arrow} alt=""/>
             </div>
         </div>  
 
 
         <div id="our-services-orange">
             <div>
-                <ul>
+                <ul className="our-services-list">
                     <li>Desktop, Web and Mobile testing</li>
                     <li>Functional testing</li>
                     <li>Configuration testing</li>
@@ -42,7 +40,7 @@ export default function Main(props) {
                     <li>Localization / translation testing</li>
                 </ul>
             </div>
-            <div>
+            <div className="our-services-text-block">
                 <p>First, we analyze existing test process of a company and define its weaknesses. Then, based on research results, we make suggestions about optimization and reorganization of testing strategies. Implementation of new test processes is essential part of our activities in this case.</p>
             </div>
 
@@ -54,7 +52,7 @@ export default function Main(props) {
             <hr/>
             <div className="cooperation-offer-blocks">
                 <h3>Fixed Price</h3>
-                <div>
+                <div className="cooperation-offer-text">
                     <p className="block-text">With this approach we define with you a project testing scope, discuss all specifications, testing environments and other details. Then we agree project verification cost and deadline. The option will be more suitable for you, if there is no big amount of objects to test at current project stage.</p>
                     <h5>Advantages</h5>
                     <ul>
@@ -66,7 +64,7 @@ export default function Main(props) {
             <hr/>
             <div className="cooperation-offer-blocks">
                 <h3>Time & Material</h3>
-                <div>
+                <div className="cooperation-offer-text">
                     <p className="block-text">"Hourly paid” model is the most suitable, when it’s hard or impossible to estimate the project testing scope and terms. Only actual QA spent time will costs with this model. Such services are paid on a monthly basis or after the work is finished in case if the cooperation terms are not more than a month, and you receive comprehensive reports on the progress, as well as statements of the time-consuming.</p>
                     <h5>Advantages</h5>
                     <ul>
@@ -78,7 +76,7 @@ export default function Main(props) {
             <hr/>
             <div className="cooperation-offer-blocks">
                 <h3>Outstaff </h3>
-                <div>
+                <div className="cooperation-offer-text">
                     <p className="block-text">If you have few projects or / and long terms cooperation plans with our company, then we can provide you a QA team (including QA Team lead , if needed). With this model, we assign QA sources, based on your requirements. In future, you can change number of QA(s), depending of test load.</p>
                     <h5>Advantages</h5>
                     <ul>
@@ -129,50 +127,48 @@ export default function Main(props) {
             <p className="block-text">Our purpose is to evolve with you! You have a new interesting startup, some modifications, updates or re-work, and you are not sure in your product quality - then you’ve come to the right place! Each of our clients and projects won't stay without attention and will be accurately verified.</p>
 
             <img src={require("./about_us.svg").default} alt=""/>
-            <div>
-                <div className="block-text">Our specialists are experts with more than 5 years of experience and great practice. Each of us has been working for a long period of time in IT product and outsource companies.</div>
-                <div className="block-text">We are always heads up with all new test approaches and worldwide trends in IT development, so we apply only best practices to our clients.</div>
+            <div className="why-us-colored-blocks">
+                <div className="block-text orange-text-block">Our specialists are experts with more than 5 years of experience and great practice. Each of us has been working for a long period of time in IT product and outsource companies.</div>
+                <div className="block-text grey-text-block">We are always heads up with all new test approaches and worldwide trends in IT development, so we apply only best practices to our clients.</div>
             </div>
             <p className="block-text">Product Quality has the highest priority for us. So we do our best to satisfy our сlients and customers! During the work we use most popular and effective test approaches and testing tools, so verification process becomes really clear and qualitative. As result we achieve required quality level in shortest terms.</p>
-            <img />
         </div>
         <div id="why-us">
+            <h2>Why Us</h2>
             <div>
-                <img />
-                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+                <img src={require("./lamp.svg").default} alt=""/>
+                <p className="block-text">We are a proud team of QA's. It's our philosophy and way of life.</p>
             </div>
             <div>
-                <img />
-                <p>Within the QA space we have many team leads and managers who have worked on a wide range of successful products. Most team members have between 3 and 12 years of experience.</p>
+                <img src={require("./people.svg").default} alt=""/>
+                <p className="block-text">Within the QA space we have many team leads and managers who have worked on a wide range of successful products. Most team members have between 3 and 12 years of experience.</p>
             </div>
             <div>
-                <img />
-                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+                <img src={require("./note.svg").default} alt=""/>
+                <p className="block-text">We can develop and provide full test documentation to you to improve your product.</p>
             </div>
             <div>
-                <img />
-                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+                <img src={require("./monitor.svg").default} alt=""/>
+                <p className="block-text">We provide full QA support during product lifecycle and our customers know we are the best place to find QA resources.</p>
             </div>
             <div>
-                <img />
-                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+                <img src={require("./devices.svg").default} alt=""/>
+                <p className="block-text">We have a lot of work experience with Agile and Waterfall development methodologies.</p>
             </div>
             <div>
-                <img />
-                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
+                <p className="block-text">QAX is a professional Quality Assurance and Quality Control team</p>
             </div>
-            <div>
-                <img />
-                <p>We are a proud team of QA's. It's our philosophy and way of life.</p>
-            </div>
+            
         </div>
         <div id="cooperation-procedure">
             <div>
                 <h2>Cooperation Procedure</h2>
-                <p></p>
+                <p className="block-text">You provide us with necessary information for test execution (requirements, URL for test environment, accounts, test results estimates, documentation, etc.). Right away we start verification process. </p>
+                <p className="block-text">In same time, we communicate with you to find all additional information will need, provide full scope of tests with test plan and costs. We report issues right away they were found in any form will be required (bug tracking system or else). </p>
+                <p className="block-text">All fixed issues will be verified with necessary regression. After verification process completed, you will be provided with test report, that includes bug report and full test documentation was used.</p>
             </div>
             <div>
-                <img />
+                <img src={require("./cooperation-procedure.svg").default} alt=""/>
             </div>
         </div>
     </div>

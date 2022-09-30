@@ -16,12 +16,12 @@ export default function Header(props) {
                     </a>
                 </li>
 				<li>
-                    <a  href="#cooperation_offer">
+                    <a  href="#cooperation-offer">
                         Cooperation Offer
                     </a>
                 </li>
 				<li>
-                    <a   href="#about_us">
+                    <a   href="#about-us">
                         About US
                     </a>
                 </li>
