@@ -13,7 +13,7 @@ export default function Main(props) {
 
         <div id="our-services">
             <h2 className="block-title">Our Services</h2>
-            <hr />
+            <hr className="title-line"/>
             <div id="our-services-text">
                 <div>
                     <h3>Full Testing Cycle</h3>
@@ -48,8 +48,8 @@ export default function Main(props) {
 
         <div id="cooperation-offer">
             <h2 className="block-title">Cooperation Offer</h2>
-            <p>QAX company suggests you three main cooperation options</p>
-            <hr/>
+            <p className="cooperation-offer-description">QAX company suggests you three main cooperation options</p>
+            <hr className="title-line"/>
             <div className="cooperation-offer-blocks">
                 <h3>Fixed Price</h3>
                 <div className="cooperation-offer-text">
@@ -99,12 +99,12 @@ export default function Main(props) {
                     <p>Confidence is one of the most important principles of our company. We can guarantee full confidence and security for any information that will be provided to us from our clients.</p>
                 </div>
                 <div>
-                <img src={require("./non-disc.png").default} alt=""/>
+                    <img src={require("./business-people.png").default} alt="l"/>
                 </div>
             </div>
             <div>
                 <div>
-                <img src={require("./outsource.png").default} alt=""/>
+                    <img src={require("./close-up-of-businessman.png").default} alt=""/>
                 </div>
                 <div>
                     <h3>
@@ -124,7 +124,7 @@ export default function Main(props) {
         </div>
         <div id="about-us">
             <h2 className="block-title">About Us</h2>
-            <hr />
+            <hr className="title-line"/>
             <p className="block-text">IT world evolves very fast, that’s why each of existing companies needs to update its product regularly to stay on wave. Winning in competition is really important, so quality of a product should be the best! And we will be glad to assist you with this. Years of experience will help us.</p>
             <p className="block-text">Our purpose is to evolve with you! You have a new interesting startup, some modifications, updates or re-work, and you are not sure in your product quality - then you’ve come to the right place! Each of our clients and projects won't stay without attention and will be accurately verified.</p>
 

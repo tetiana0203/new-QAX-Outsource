@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/new-QAX-Outsource/static/css/main.76c257cc.css",
-    "main.js": "/new-QAX-Outsource/static/js/main.fb770998.js",
+    "main.css": "/new-QAX-Outsource/static/css/main.f51f0c83.css",
+    "main.js": "/new-QAX-Outsource/static/js/main.c9a74a31.js",
     "static/js/787.117781b1.chunk.js": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js",
     "static/media/cooperation-procedure.svg": "/new-QAX-Outsource/static/media/cooperation-procedure.36060975ef93353381c66947b5726fe6.svg",
     "static/media/hero.png": "/new-QAX-Outsource/static/media/hero.0edf7da7cb5b12a61719.png",
     "static/media/about_us.svg": "/new-QAX-Outsource/static/media/about_us.92b846422916c038977b16ad7660ec36.svg",
-    "static/media/non-disc.png": "/new-QAX-Outsource/static/media/non-disc.194ab2959a6219dfda6c.png",
-    "static/media/outsource.png": "/new-QAX-Outsource/static/media/outsource.bc7757cd0fead888446f.png",
+    "static/media/business-people.png": "/new-QAX-Outsource/static/media/business-people.194ab2959a6219dfda6c.png",
+    "static/media/close-up-of-businessman.png": "/new-QAX-Outsource/static/media/close-up-of-businessman.bc7757cd0fead888446f.png",
     "static/media/devices.svg": "/new-QAX-Outsource/static/media/devices.67530c75f8d0be5e056fbc5290e13905.svg",
     "static/media/call.svg": "/new-QAX-Outsource/static/media/call.615dbbb05319fb50aae10ba12e2b6327.svg",
     "static/media/location.svg": "/new-QAX-Outsource/static/media/location.597343f7e335e003e7f9fe53ef686189.svg",
@@ -24,12 +24,12 @@
     "static/media/arrow.svg": "/new-QAX-Outsource/static/media/arrow.e699e97e519d33b3f955c9d647e40d1f.svg",
     "static/media/advantage-icon.svg": "/new-QAX-Outsource/static/media/advantage-icon.bdf17fed8955e84a8a05.svg",
     "static/media/chevron.svg": "/new-QAX-Outsource/static/media/chevron.6cc8950346e4f4cf6e40.svg",
-    "main.76c257cc.css.map": "/new-QAX-Outsource/static/css/main.76c257cc.css.map",
-    "main.fb770998.js.map": "/new-QAX-Outsource/static/js/main.fb770998.js.map",
+    "main.f51f0c83.css.map": "/new-QAX-Outsource/static/css/main.f51f0c83.css.map",
+    "main.c9a74a31.js.map": "/new-QAX-Outsource/static/js/main.c9a74a31.js.map",
     "787.117781b1.chunk.js.map": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76c257cc.css",
-    "static/js/main.fb770998.js"
+    "static/css/main.f51f0c83.css",
+    "static/js/main.c9a74a31.js"
   ]
 }

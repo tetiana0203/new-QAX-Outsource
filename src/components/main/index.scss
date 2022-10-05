@@ -66,6 +66,9 @@ img{
 }
 
 /*****************************************OUR SERVICES**********************************************/
+.title-line{
+    margin: 100px 0 50px 0;
+}
 
 #our-services{
     padding: $block-paddings-desk;
@@ -95,14 +98,16 @@ img{
     margin: 0;
 }
 
-#our-services hr{
-    margin: 0;
-}
-
 #our-services-text{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+#our-services-text>div {
+    max-width: 620px;
+    width: 100%;
 }
 
 
@@ -166,10 +171,19 @@ img{
 }
 
 #cooperation-offer .block-title{
-    margin: 0 0 30px 0;
     @include block-titles;
 }
 
+.cooperation-offer-description{
+    margin: 30px 0 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+
+    color: #120C04;
+}
 
 #cooperation-offer .block-text{
     @include block-paragraphs;
@@ -217,8 +231,12 @@ img{
     flex-wrap: nowrap;
 }
 
+.cooperation-offer-blocks:last-child{
+    margin: 50px 0 0 0;
+}
+
 .cooperation-offer-text{
-    max-width: 730px;
+    max-width: 728px;
 }
 
 /*********************************************Non-Disclosure*********************************************/
@@ -227,12 +245,6 @@ img{
     padding: $block-paddings-desk;
     display: flex;
     flex-direction: row;
-}
-
-
-
-
-#non-disclosure img{
 }
 
 #non-disclosure h3{
