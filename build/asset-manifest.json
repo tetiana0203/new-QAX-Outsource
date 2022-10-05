@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-QAX-Outsource/static/css/main.f51f0c83.css",
-    "main.js": "/new-QAX-Outsource/static/js/main.c9a74a31.js",
+    "main.css": "/new-QAX-Outsource/static/css/main.31201a2e.css",
+    "main.js": "/new-QAX-Outsource/static/js/main.54dd31f1.js",
     "static/js/787.117781b1.chunk.js": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js",
     "static/media/cooperation-procedure.svg": "/new-QAX-Outsource/static/media/cooperation-procedure.36060975ef93353381c66947b5726fe6.svg",
     "static/media/hero.png": "/new-QAX-Outsource/static/media/hero.0edf7da7cb5b12a61719.png",
@@ -24,12 +24,12 @@
     "static/media/arrow.svg": "/new-QAX-Outsource/static/media/arrow.e699e97e519d33b3f955c9d647e40d1f.svg",
     "static/media/advantage-icon.svg": "/new-QAX-Outsource/static/media/advantage-icon.bdf17fed8955e84a8a05.svg",
     "static/media/chevron.svg": "/new-QAX-Outsource/static/media/chevron.6cc8950346e4f4cf6e40.svg",
-    "main.f51f0c83.css.map": "/new-QAX-Outsource/static/css/main.f51f0c83.css.map",
-    "main.c9a74a31.js.map": "/new-QAX-Outsource/static/js/main.c9a74a31.js.map",
+    "main.31201a2e.css.map": "/new-QAX-Outsource/static/css/main.31201a2e.css.map",
+    "main.54dd31f1.js.map": "/new-QAX-Outsource/static/js/main.54dd31f1.js.map",
     "787.117781b1.chunk.js.map": "/new-QAX-Outsource/static/js/787.117781b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f51f0c83.css",
-    "static/js/main.c9a74a31.js"
+    "static/css/main.31201a2e.css",
+    "static/js/main.54dd31f1.js"
   ]
 }

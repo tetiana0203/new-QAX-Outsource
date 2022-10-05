@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.scss";
 import arrow from "./arrow.svg";
+import nondisc from "./business-people.png";
+import outsorce from "./close-up-of-businessman.png";
 export default function Main(props) {
   return (
     <div id="content">
@@ -90,27 +92,27 @@ export default function Main(props) {
             </div>
         </div> 
         <div id="non-disclosure">
-            <div>
-                <div>
+            <div className="non-disclosure-info">
+                <div className="non-disclosure-text-block">
                     <h3>
                         Non-Disclosure
                     </h3>
-                    <hr />
+                    <hr className="non-disclosure-line"/>
                     <p>Confidence is one of the most important principles of our company. We can guarantee full confidence and security for any information that will be provided to us from our clients.</p>
                 </div>
-                <div>
-                    <img src={require("./business-people.png").default} alt="l"/>
+                <div className="non-disclosure-img-block">
+                    <img src={nondisc} alt="l"/>
                 </div>
             </div>
-            <div>
-                <div>
-                    <img src={require("./close-up-of-businessman.png").default} alt=""/>
+            <div className="non-disclosure-info">
+                <div  className="non-disclosure-img-block">
+                    <img src={outsorce} alt=""/>
                 </div>
-                <div>
+                <div className="non-disclosure-text-block">
                     <h3>
                         Outsource
                     </h3>
-                    <hr />
+                    <hr className="non-disclosure-line"/>
                     <p>Our company is located in Kyiv, Ukraine. For many years we provide a lot of QA/QC services to different clients as outsource. We have impressive experience in work with countries such as Canada, USA, Great Britain, Sweden, Poland, Malta, India, and others… We can set and apply effective communication process with our client regardless of time difference.</p>
                 </div>
             </div>
@@ -118,7 +120,7 @@ export default function Main(props) {
         <div id="our-support">
             <h2>Our Support</h2>
             <p>Do you need help to decide which model is more convenient for you project? Please contact our managers and they will help you to find the best solution. For more convenient and based on your suggestions, all cooperation conditions can be additionally reviewed and changed, to provide maximum efficiency.</p>
-            <button>
+            <button className="our-support-button">
                 Contact us
             </button>
         </div>
