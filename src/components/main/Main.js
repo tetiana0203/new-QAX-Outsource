@@ -99,10 +99,12 @@ export default function Main(props) {
                     <p>Confidence is one of the most important principles of our company. We can guarantee full confidence and security for any information that will be provided to us from our clients.</p>
                 </div>
                 <div>
+                <img src={require("./non-disc.png").default} alt=""/>
                 </div>
             </div>
             <div>
                 <div>
+                <img src={require("./outsource.png").default} alt=""/>
                 </div>
                 <div>
                     <h3>

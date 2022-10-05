@@ -37,7 +37,7 @@ img{
 
 #hero-block{
     height: 450px;
-    background-image: url('hero.svg'); 
+    background-image: url('hero.png'); 
     background-size: cover; 
 	/*background-position: center center;*/
     background-repeat: no-repeat;
@@ -318,15 +318,31 @@ img{
 }
 
 .orange-text-block{
+    box-sizing: border-box;
+    background: $orange;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 49px 110px 51px 80px;
     max-width: 700px;
     width: 100%;
-    background: $orange;
 }
 
 .grey-text-block{
+    box-sizing: border-box;
+    background: $grey;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #120C04;;
+    padding: 49px 110px 51px 80px;
     max-width: 700px;
     width: 100%;
-    background: $grey;
 }
 /***********************************Coopreation Procedure ***********************/
 #cooperation-procedure{
