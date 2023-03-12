@@ -1,0 +1,23 @@
+.header{
+
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        grid-gap: 80px;
+
+        a{
+            flex: 1 1 auto;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+}

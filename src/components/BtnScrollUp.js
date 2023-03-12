@@ -1,5 +1,4 @@
 import React from 'react';
-import "./BtnScrollUp.css";
 
 function BtnScrollUp() {
   

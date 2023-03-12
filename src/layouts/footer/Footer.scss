@@ -1,0 +1,21 @@
+.footer{
+    background-color: black;
+    color:white;
+
+    .footer-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        padding-top: 55px ;
+        padding-bottom: 52px;
+        
+        .footer-icons{
+            display: flex;
+            flex-direction: row;
+            grid-gap: 48px;
+        }
+        
+    }
+}

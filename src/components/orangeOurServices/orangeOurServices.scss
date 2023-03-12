@@ -1,0 +1,30 @@
+.orange-our-services{
+    padding: 150px 0;
+
+    background: #F49422;
+    color: white;
+}
+
+.orange-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.orange-column{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    flex: 1 0;
+}
+
+.orange-list{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+
+    grid-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
