@@ -11,12 +11,12 @@ import logo from "./logo.jpg"
       <div><img src={logo} alt="logo"/></div>
 
       <nav className="header-menu">
-          <a href="#">Our Services</a>
-          <a href="#">Cooperation Offer</a>
-          <a href="#">About Us</a>
+          <a href="#our-services">Our Services</a>
+          <a href="#cooperation-offer">Cooperation Offer</a>
+          <a href="#about-us">About Us</a>
       </nav>
       
-      <button>Contact Us</button>
+      <a className="contact-us-header" href="#contact-us">Contact Us</a>
       
     </div>
   );

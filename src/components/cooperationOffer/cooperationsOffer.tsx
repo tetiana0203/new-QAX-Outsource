@@ -1,15 +1,18 @@
+import React from 'react'
+
 import "./cooperationsOffer.scss"
+
 
 const CooperationOffers = () => {
   return (
-    <div className="cooperation-offers">
+    <div className="cooperation-offer" id="cooperation-offer">
       <div className="container">
-        <h2>Cooperation Offer</h2>
-        <p>QAX company suggests you three main cooperation options</p>
+        <h2 className="cooperation-offer-title">Cooperation Offer</h2>
+        <p className="cooperation-offer-subtitle">QAX company suggests you three main cooperation options</p>
 
-        <div>
-            <h3>Fixed Price</h3>
-            <div>
+        <div className="coop-off-infoblock">
+            <h3 className="infoblock-title">Fixed Price</h3>
+            <div className="infoblock-text">
                 <p>With this approach we define with you a project testing scope, discuss all specifications, testing environments and other details. Then we agree project verification cost and deadline. The option will be more suitable for you, if there is no big amount of objects to test at current project stage.</p>
                 <h4>Advantages</h4>
                 <ul>
@@ -19,9 +22,9 @@ const CooperationOffers = () => {
             </div>
         </div>
 
-        <div>
-            <h3>Time & Material</h3>
-            <div>
+        <div className="coop-off-infoblock">
+            <h3 className="infoblock-title">Time & Material</h3>
+            <div className="infoblock-text">
                 <p>"Hourly paid” model is the most suitable, when it’s hard or impossible to estimate the project testing scope and terms. Only actual QA spent time will costs with this model. Such services are paid on a monthly basis or after the work is finished in case if the cooperation terms are not more than a month, and you receive comprehensive reports on the progress, as well as statements of the time-consuming.</p>
                 <h4>Advantages</h4>
                 <ul>
@@ -31,9 +34,9 @@ const CooperationOffers = () => {
             </div>
         </div>
 
-        <div>
-            <h3>Outstaff </h3>
-            <div>
+        <div className="coop-off-infoblock">
+            <h3 className="infoblock-title">Outstaff </h3>
+            <div className="infoblock-text">
                 <p>If you have few projects or / and long terms cooperation plans with our company, then we can provide you a QA team (including QA Team lead , if needed). With this model, we assign QA sources, based on your requirements. In future, you can change number of QA(s), depending of test load.</p>
                 <h4>Advantages</h4>
                 <ul>

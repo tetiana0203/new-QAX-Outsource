@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BtnScrollUp() {
+const  BtnScrollUp = () =>{
   
   const handlerScrollUp = () => {
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {

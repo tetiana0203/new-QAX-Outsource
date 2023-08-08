@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["types/*"]
+    },
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+
+}

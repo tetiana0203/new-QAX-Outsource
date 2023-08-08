@@ -1,8 +1,10 @@
+import React from 'react'
+
 import "./ourServices.scss"
 
 const OurServices = () => {
     return (
-        <div className="our-services">
+        <div className="our-services" id="our-services">
             <div className="container">
                 <h2>Our Services</h2>
                 <div className="our-services-content">
