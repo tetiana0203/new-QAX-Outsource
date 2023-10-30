@@ -1,0 +1,71 @@
+@import "variables";
+@mixin adaptive-font($desktop-size, $mobile-size) {
+    $addSize: $desktop-size - $mobile-size;
+    $adjustedMaxWidth: $maxWidth - 320;
+
+    font-size: calc(#{$mobile-size + px} + #{$addSize} * ((100vw - 320px) / #{$adjustedMaxWidth}));
+    }
+/*-----------titles-------------*/
+@mixin default-title {
+    @include adaptive-font(80, 36);
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@mixin middle-title {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 120%;
+}
+
+@mixin small-title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+/*--------------padding------------*/
+@mixin padding-desktop{
+    padding: 150px 0;
+}
+
+@mixin padding-tablet{
+    padding: 70px 0;
+}
+
+@mixin padding-mobile{
+    padding: 40px 0 30px 0;
+}
+
+/*-----------texts-------------*/
+@mixin base-text {
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+
+/*-----------lines-------------*/
+@mixin dividing-line {
+    opacity: 0.2;
+    background: #000;
+}
+
+
+
+
+@mixin mobile {
+  @media screen and (max-width: #{$breakpoint-mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: #{$breakpoint-mobile + 1}) and (max-width: #{$breakpoint-tablet}) {
+    @content;
+  }
+}

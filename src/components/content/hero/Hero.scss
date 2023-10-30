@@ -1,0 +1,48 @@
+@import "../../../styles/_mixins.scss";
+
+.hero {
+    padding: 336px 0 80px 0;
+
+    background-image: url("hero-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+
+    &__title {
+        @include adaptive-font(120, 30);
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 22px;
+        $maxWidth: 1480;
+    }
+
+    &__description {
+        @include adaptive-font(22, 12);
+        width: 624px;
+        font-weight: 400;
+        line-height: 150%;
+        opacity: 0.9;
+        width: 100%;
+    }
+}
+
+@include tablet {
+    .hero {
+        padding: 187px 0 47px 0;
+
+        &__description {
+            max-width: 526px;
+        }
+    }
+}
+
+@include mobile {
+    .hero {
+        padding: 82px 0 10px 0;
+        &__description {
+            max-width: 276x;
+        }
+    }
+}

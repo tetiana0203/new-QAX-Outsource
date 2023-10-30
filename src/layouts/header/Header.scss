@@ -1,36 +1,163 @@
-.header{
+@import "..//..//styles/mixins";
 
-    height: 80px;
+.header {
+  height: 80px;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  &__block--desktop {
+    display: flex;
+  }
+  &__menu {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    grid-gap: 80px;
+
+    a {
+      flex: 1 1 auto;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+    }
+    a:hover {
+      color: #f49422;
+    }
+  }
+
+  &__block--desktop {
+    display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+  }
 
-    .header-menu{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        grid-gap: 80px;
+  &__button {
+    color: #120c04;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
 
-        a{
-            flex: 1 1 auto;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 21px;
-        }
+    display: block;
+    padding: 14px 47px;
+    border: 1px solid #f49422;
+
+    &--hover {
+      &:hover {
+        color: #fff;
+        background-color: #f49422;
+      }
+    }
+  }
+
+  .mobile-menu-icon {
+    display: none;
+  }
+
+  button#react-burger-menu-btn,
+  span.bm-burger-bars {
+    display: none;
+  }
+}
+
+@include tablet {
+  .header {
+    height: 72px;
+
+    &__menu {
+      display: none;
+    }
+    &__button {
+      font-size: 15px;
+      width: 149px;
+      height: 48px;
+      padding: 14px 32px 14px 31px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
     }
 
-    .contact-us-header{
-        color: #120C04;
-        font-family: Rubik;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 20px;
-
-        display: block;
-        padding: 14px 47px;
-        border:  1px solid #F49422;
+    &__button {
+      margin-right: 67px;
     }
+
+    .mobile-menu-icon {
+      display: block; /* Показываем иконку бургер-меню на мобильных устройствах */
+    }
+
+    .bm-burger-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      left: 36px;
+      top: 36px;
+    }
+
+    .bm-menu-wrap {
+      overflow: hidden;
+      top: 0;
+    }
+    .bm-menu {
+      background: rgb(244, 149, 34);
+      height: 100vh;
+      overflow: hidden;
+
+      span.bm-burger-bars {
+        color: black;
+      }
+    }
+
+    span.bm-cross {
+      background: rgb(0, 0, 0);
+    }
+
+    /* Morph shape necessary with bubble or elastic */
+
+    /* Wrapper for item list */
+    .bm-item-list {
+      padding: 0.8em;
+    }
+
+    /* Individual item */
+    .bm-item {
+      display: inline-block;
+    }
+  }
+}
+
+@include mobile {
+  .header {
+    height: 38px;
+
+    &__menu {
+      display: none;
+    }
+    &__button {
+      background-image: url('mail.svg'); // Замените на путь к изображению
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px; // Скрываем текст за пределами видимости
+    white-space: nowrap; 
+    border: none;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-right: 24px;
+    }
+
+    .mobile-menu-icon {
+      display: block;
+    }
+
+    &__logo__image{
+      height: 32px;
+      width: 51px;;
+    }
+
+  }
 }

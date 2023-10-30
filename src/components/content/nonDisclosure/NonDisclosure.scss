@@ -1,0 +1,74 @@
+@import "../../../styles/_mixins.scss";
+
+.non-disclosure {
+    @include padding-desktop;
+
+    .non-disclosure__info {
+        display: flex;
+        grid-gap: 80px;
+        flex-direction: column;
+    }
+
+    &__block1,
+    &__block2 {
+        display: flex;
+        flex-direction: row;
+        grid-gap: 150px;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 120%;
+
+        margin-bottom: 50px;
+
+        color: #120c04;
+    }
+
+    &__text {
+        padding-top: 30px;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+
+        color: #120c04;
+    }
+}
+@include tablet {
+    .non-disclosure {
+        @include padding-tablet;
+
+        &__block1{
+            grid-gap: 40px;
+            flex-direction: column;
+        }
+
+        &__block2{
+            grid-gap: 40px;
+            flex-direction: column-reverse;
+        }
+
+        
+    }
+}
+
+@include mobile{
+    .non-disclosure {
+        @include padding-mobile;
+        
+
+        &__block1{
+            grid-gap: 40px;
+            flex-direction: column;
+        }
+
+        &__block2{
+            grid-gap: 40px;
+            flex-direction: column-reverse;
+        }
+
+        
+    }
+}

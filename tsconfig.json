@@ -8,6 +8,6 @@
     },
     "esModuleInterop": true
   },
-  "include": ["src"],
+  "include": ["src","node_modules/@fortawesome/free-solid-svg-icons"]
 
 }

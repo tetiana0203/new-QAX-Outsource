@@ -1,0 +1,93 @@
+.contact-us-block{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(17, 19, 35, 0.08);
+    padding: 100px 330px;
+
+    .input-fields,.intl-tel-input{
+        line-height: 30px;
+        height: 30px;
+        width: 100%;
+        min-width: 472px;
+        border:none;
+        border-bottom: 1px solid #B9B6B6;
+        margin-bottom: 72px;
+    }
+
+    .contact-us-title{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-bottom: 52px;
+
+        h2{
+            margin-right: 40px;
+            font-family: 'Rubik';
+            font-weight: 500;
+            font-size: 54px;
+            line-height: 120%;
+        }
+    }
+
+    .error-mesage{
+        display: none;
+    }
+
+    .privacy-checkbox{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .button-send{
+        width: 180px;
+        height: 60px;
+        flex-shrink: 0;
+        background: #F49422;
+
+        color: #FFF;
+        font-size: 18px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-us-block{
+        padding: 50px 54px;
+    
+        .input-fields,.intl-tel-input{
+            min-width: 245px;
+            width: 100%;
+            border:none;
+            border-bottom: 1px solid #B9B6B6;
+            margin-bottom: 60px;
+        }
+    
+        .contact-us-title{
+            margin-bottom: 50px;
+    
+            h2{
+                margin-right: 40px;
+                font-family: 'Rubik';
+                font-weight: 500;
+                font-size: 50px;
+                line-height: 120%;
+            }
+        }
+    
+        .error-mesage{
+            display: none;
+        }
+    
+        .privacy-checkbox{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+    }
+}

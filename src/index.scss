@@ -5,36 +5,9 @@ $roboto:'Roboto', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 $rubik:'Rubik', sans-serif;
 
-/*colors*/
-$orange:#F49422;
-$light-grey: #F7F7F7;
+@import "/src/styles/variables";
+@import "/src/styles/mixins";
 
-/*values*/
-$max-content-width: 1440px;
-
-
-
-/*mixines*/
-
-
-@mixin article-big-title{
-    font-weight: 500;
-    font-size: 80px;
-    line-height: 95px;
-    color: #120C04;
-}
-
-@mixin artickle-middle-title{
-    font-weight: 500;
-    font-size: 54px;
-    line-height: 120%;
-}
-
-@mixin article-small-title{
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 120%;
-}
 
 body{
     font-weight: 400;
@@ -44,7 +17,20 @@ body{
 }
 
 .container {
-  max-width: $max-content-width;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 80px 0 80px;
+  padding: 0 80px;
+
+
+     @include tablet {
+        min-width: 580px;
+        padding: 0 94px;
+    }
+
+    @include mobile {
+        min-width: 280px;
+        padding: 0 20px;
+    }
 }
+
+
